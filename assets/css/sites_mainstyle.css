@@ -153,6 +153,51 @@
 .boxes:hover p{
     color: #252525;
 }
+
+.boxes_why {
+    padding: 20px;
+    transition: .3s ease-in-out;
+    margin-bottom: 15px;
+    min-height: 323px;
+    width: 100%;
+    text-align: center;
+}
+.boxes_why img{
+    border: 1px solid #eee;
+    border-radius: 50%;
+    width: 70%;
+    padding: 5px;
+    margin: auto;
+}
+.boxes_why h4{
+    color: #6c757d;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.boxes_why p{
+    color: #6c757d;
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.boxes_why:hover{
+    box-shadow: 0px 0px 20px 4px #ededed;
+    border-radius: 12px;
+    transition: .3s ease-in-out;
+    transform: scale(1.05);
+}
+.boxes_why:hover img{
+    background-color: #c4ffbc;
+}
+.boxes_why:hover h4{
+    color: #2dac14;
+}
+.boxes_why:hover p{
+    color: #252525;
+}
+
 .whoweare-content{
     display: flex;
     justify-content: center;
