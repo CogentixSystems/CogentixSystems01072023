@@ -1278,3 +1278,11 @@ button.slick-prev, button.slick-prev:hover {
   border: 1px solid transparent;
   pointer-events: none;
 }
+
+.job-content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap:15px;
+}
