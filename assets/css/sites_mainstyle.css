@@ -204,6 +204,17 @@
     align-items: left;
     height: 100%;
     flex-direction: column;
+    border-right: 10px solid #d7e4ed;
+    position:relative;
+}
+.whoweare-content:before {
+  position: absolute;
+  content: "";
+  border-left: 30px solid #ff000000;
+  border-right: 30px solid #d7e4ed;
+  border-top: 30px solid #ffff0000;
+  border-bottom: 30px solid #00800000;
+  right: 0px;
 }
 .service-box-height{
     min-height: 50px !important;
@@ -560,7 +571,7 @@ li.active {
     left: 0px;
 }
 .logo-height {
-  height: 85px;
+  height: 50px;
 }
 .hand-s{
   height:60px !important;
@@ -598,7 +609,7 @@ display: block;
 height: 2px;
 width: 40px;
 background: #fff;
-margin-top: 20px;
+margin-top: 5px;
 }
 .single_footer p{color:#fff;}
 .single_footer ul {
@@ -610,7 +621,7 @@ list-style: none;
 color: #fff;
 -webkit-transition: all 0.3s ease 0s;
 transition: all 0.3s ease 0s;
-line-height: 36px;
+line-height: 26px;
 font-size: 15px;
 text-transform: capitalize;
 }
